@@ -1,4 +1,4 @@
-Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
+Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR.
 
 List of cryptocurrency:
 
