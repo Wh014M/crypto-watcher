@@ -33,9 +33,6 @@ python3 cw.py
 
 python3 cw-web.py
 
-# Windows
-
-cw.exe
 
 Added standalone Web App with PySimpleGUIWeb.
 
