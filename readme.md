@@ -25,7 +25,7 @@ Program sends requests on Bitstamp API and recive back prices of cryptocurrency'
 
 How to use:
 
-# Python
+Python
 
 pip3 install -r requirements.txt
 
