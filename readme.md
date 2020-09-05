@@ -17,7 +17,7 @@ List of cryptocurrency:
 7) Xlm - Stellar
 
 
-Programed in python with pysimplegui.
+Programed in python with PySimpleGUI.
 
 How it works:
 
