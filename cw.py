@@ -169,8 +169,8 @@ def load_settings(settings_file, default_settings):
 
 
 def save_settings(settings_file, settings, values):
-    if values:      # if there are stuff specified by another window, fill in those values
-        for key in SETTINGS_KEYS_TO_ELEMENT_KEYS:  # update window with the values read from settings file
+    if values:      
+        for key in SETTINGS_KEYS_TO_ELEMENT_KEYS:
             try:
                 settings[key] = values[SETTINGS_KEYS_TO_ELEMENT_KEYS[key]]
             except Exception as e:
@@ -192,7 +192,7 @@ def create_settings_window(settings):
 
     window = sg.Window('Settings', layout, keep_on_top=True, finalize=True)
 
-    for key in SETTINGS_KEYS_TO_ELEMENT_KEYS:   # update window with the values read from settings file
+    for key in SETTINGS_KEYS_TO_ELEMENT_KEYS:
         try:
             window[SETTINGS_KEYS_TO_ELEMENT_KEYS[key]].update(value=settings[key])
         except Exception as e:
@@ -206,23 +206,23 @@ def create_main_window(settings):
     sg.theme(settings['theme'])
 
     menu_def = [['&Menu',['Settings', 'E&xit']],
-                ['&Help','&About...'],
-                ['Projects Support', 'Donate']]
+                ['&Help','&About...']]
 
     right_click_menu = ['Unused', ['Settings', 'E&xit']]
     
-    layout =   [[sg.Menu(menu_def, tearoff=True)],
+    layout =   [[sg.Menu(menu_def)],
                 [sg.Image('png/cw.png', size=(250, 100))],
-                [sg.Text('1 EUR  =', font=('Helvetica', 11)), sg.Text('', size=(19,1), font=('Helvetica', 11), key='es'), sg.Text('', size=(20,1), font=('Helvetica', 11), key='_DATE_')],
+                [sg.Text('1 EUR  =', font=('Helvetica', 11)), sg.Text('', size=(19,1), font=('Helvetica', 11), key='es'),
+                 sg.Text('', size=(15,1), font=('Helvetica', 11), key='_DATE_'), sg.Button('Donate', font=('Helvetica', 9), button_color=('white', 'green'))],
                 [sg.Text('')],
-                [sg.Text('# ', font=('Helvetica', 13), size=(1,1)), sg.Text('Name', font=('Helvetica', 13), size=(24,1)), sg.Text(' Price USD', size=(15,1), font=('Helvetica', 13)), sg.Text(' Price EUR', size=(15,1), font=('Helvetica', 13))],
-                [sg.Text('1 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/bit.png', size=(30, 30)), sg.Text('Bitcoin (BTC)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='coin'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='btceu')],
-                [sg.Text('2 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/eth.png', size=(30, 30)), sg.Text('Ethereum (ETH)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='ethe'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='eteuro')],
-                [sg.Text('3 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/xrp.png', size=(30, 30)), sg.Text('Ripple (XRP)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='xrp'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='xrpeu')],
-                [sg.Text('4 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/lite.png', size=(30, 30)), sg.Text('Litecoin (LTC)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='ltcusd'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='ltceur')],
-                [sg.Text('5 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/bch.png', size=(30, 30)), sg.Text('Bitcoin Cash (BCH)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='bcusd'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='bceur')],
-                [sg.Text('6 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/pax.png', size=(30, 30)), sg.Text('Paxos Standard (PAX)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='paxu'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='paxe')],
-                [sg.Text('7 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/stellar.png', size=(30, 30)), sg.Text('Stellar (XLM)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='xlmu'), sg.Text('', size=(15,1), font=('Helvetica', 13),  key='xlme')]]
+                [sg.Text('# ', font=('Helvetica', 13), size=(1,1)), sg.Text('Name', font=('Helvetica', 13), size=(24,1)), sg.Text(' Price USD', size=(15,1), font=('Helvetica', 13)), sg.Text(' Price EUR', size=(10,1), font=('Helvetica', 13))],
+                [sg.Text('1 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/bit.png', size=(30, 30)), sg.Text('Bitcoin (BTC)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='coin'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='btceu')],
+                [sg.Text('2 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/eth.png', size=(30, 30)), sg.Text('Ethereum (ETH)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='ethe'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='eteuro')],
+                [sg.Text('3 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/xrp.png', size=(30, 30)), sg.Text('Ripple (XRP)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='xrp'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='xrpeu')],
+                [sg.Text('4 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/lite.png', size=(30, 30)), sg.Text('Litecoin (LTC)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='ltcusd'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='ltceur')],
+                [sg.Text('5 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/bch.png', size=(30, 30)), sg.Text('Bitcoin Cash (BCH)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='bcusd'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='bceur')],
+                [sg.Text('6 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/pax.png', size=(30, 30)), sg.Text('Paxos Standard (PAX)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='paxu'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='paxe')],
+                [sg.Text('7 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/stellar.png', size=(30, 30)), sg.Text('Stellar (XLM)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='xlmu'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='xlme')]]
 
     return sg.Window('CW', layout=layout, font='Helvetica 18', right_click_menu=right_click_menu)
 
