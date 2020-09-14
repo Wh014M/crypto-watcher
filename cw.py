@@ -213,7 +213,7 @@ def create_main_window(settings):
     layout =   [[sg.Menu(menu_def)],
                 [sg.Image('png/cw.png', size=(250, 100))],
                 [sg.Text('1 EUR  =', font=('Helvetica', 11)), sg.Text('', size=(19,1), font=('Helvetica', 11), key='es'),
-                 sg.Text('', size=(15,1), font=('Helvetica', 11), key='_DATE_'), sg.Button('Donate', font=('Helvetica', 9), button_color=('white', 'green'))],
+                 sg.Text('', size=(15,1), font=('Helvetica', 11), key='_DATE_'), sg.Button('Donate',size=(11,1), font=('Helvetica', 9), button_color=('white', 'green'))],
                 [sg.Text('')],
                 [sg.Text('# ', font=('Helvetica', 13), size=(1,1)), sg.Text('Name', font=('Helvetica', 13), size=(24,1)), sg.Text(' Price USD', size=(15,1), font=('Helvetica', 13)), sg.Text(' Price EUR', size=(10,1), font=('Helvetica', 13))],
                 [sg.Text('1 ', font=('Helvetica', 12), size=(1,1)), sg.Image('png/bit.png', size=(30, 30)), sg.Text('Bitcoin (BTC)', font=('Helvetica', 12), size=(20,1)), sg.Text('', size=(15,1), font=('Helvetica', 12),  key='coin'), sg.Text('', size=(10,1), font=('Helvetica', 13),  key='btceu')],
