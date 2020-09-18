@@ -1,3 +1,5 @@
+![CW](MainImage.png)
+
 Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
 List of cryptocurrency:
@@ -23,9 +25,9 @@ How it works:
 
 Program sends requests on Bitstamp API and recive back prices of cryptocurrency's.
 
-How to use:
+#How to use:
 
-# Python
+Python
 
 pip3 install -r requirements.txt
 
@@ -40,8 +42,6 @@ Windows:
 cd dist folder
 
 cw.exe
-
-![CW](MainImage.png)
 
 ![CW](screen1.png)
 
