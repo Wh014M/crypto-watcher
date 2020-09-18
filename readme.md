@@ -1,4 +1,4 @@
-Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR.
+Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
 List of cryptocurrency:
 
@@ -17,7 +17,7 @@ List of cryptocurrency:
 7) Xlm - Stellar
 
 
-Programmed in python with PySimpleGUI.
+Programed in python with pysimplegui.
 
 How it works:
 
@@ -25,14 +25,13 @@ Program sends requests on Bitstamp API and recive back prices of cryptocurrency'
 
 How to use:
 
-Python
+# Python
 
 pip3 install -r requirements.txt
 
 python3 cw.py
 
 python3 cw-web.py
-
 
 Added standalone Web App with PySimpleGUIWeb.
 

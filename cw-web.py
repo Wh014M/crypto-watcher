@@ -218,8 +218,7 @@ def create_main_window(settings):
     return sg.Window('CW', layout=layout,
                      font='Helvetica 18',
                      web_ip='127.0.0.1',
-                     web_port=8888,
-                     )
+                     web_port=8888)
 
 def main():
     window, settings = None, load_settings(SETTINGS_FILE, DEFAULT_SETTINGS )
