@@ -19,13 +19,13 @@ List of cryptocurrency:
 7) Xlm - Stellar
 
 
-Programed in python with pysimplegui.
+Programmed in python with PySimpleGUI.
 
 How it works:
 
 Program sends requests on Bitstamp API and recive back prices of cryptocurrency's.
 
-#How to use:
+# How to use:
 
 Python
 
