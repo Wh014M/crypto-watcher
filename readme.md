@@ -1,4 +1,5 @@
-[![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano)](https://github.com/adrijano/github-readme-stats)
+![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
+
 ![CW](MainImage.png)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&count_private=true)
