@@ -10,6 +10,8 @@
 
 [![](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg)](https://github.com/adrijano/crypto-watcher)
 
+[![GitHub stars](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/crypto-watcher)
+
 Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
 List of cryptocurrency:
