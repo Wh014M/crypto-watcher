@@ -1,5 +1,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/crypto-watcher/)
+
 ![CW](MainImage.png)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
@@ -7,8 +9,6 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)
 
 # If you like it give it a star
-
-[![](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg)](https://github.com/adrijano/crypto-watcher)
 
 [![GitHub stars](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/crypto-watcher)
 
