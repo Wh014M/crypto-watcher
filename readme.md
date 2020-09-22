@@ -48,7 +48,7 @@ Program sends requests on Bitstamp API and recive back real-time prices of Crypt
 
 git clone https://github.com/adrijano/crypto-watcher.git
 
-cd crypto-watcher && pip3 install -r requirements.txt
+cd crypto-watcher && pip install -r requirements.txt
 
 python3 cw.py
 
