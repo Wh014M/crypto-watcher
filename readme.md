@@ -1,6 +1,8 @@
 
 ![CW](MainImage.png)
 
+![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&count_private=true)
+
 Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
 List of cryptocurrency:
@@ -48,9 +50,6 @@ cd dist
 
 cw.exe
 ```
-
-# Like this project? Please give it a star
-![Adrijano's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&count_private=true)
 
 ![CW](screen1.png)
 
