@@ -24,7 +24,7 @@ Programed in python with pysimplegui.
 
 # How it works:
 ```
-Program sends requests on Bitstamp API and recive back prices of cryptocurrency's.
+Program sends requests on Bitstamp API and recive back real time prices of cryptocurrency's.
 
 ```
 # How to use:
