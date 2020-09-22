@@ -65,7 +65,7 @@ cw.exe
 
 ![CW](screenweb2.png)
 
-# Donation
+# Donations
 If you would like to support me, donations are very welcome.
 
 ```
