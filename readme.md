@@ -36,12 +36,12 @@ Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR.
 ```
 **Programmed in Python | PySimpleGUI**
 
-# How it works:
+# How it works
 ```
 Program sends requests on Bitstamp API and recive back real-time prices of Cryptocurrencies.
 
 ```
-# How to use:
+# How to use
 
 ```
 ### Python3+
