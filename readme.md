@@ -33,9 +33,8 @@ Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR.
 6) Pax - Paxos standard
 
 7) Xlm - Stellar
-
-**Programmed in Python | PySimpleGUI**
 ```
+**Programmed in Python | PySimpleGUI**
 
 # How it works:
 ```
