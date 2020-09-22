@@ -1,7 +1,5 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-![PySimpleGui](pysimplegui.png)
-
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/crypto-watcher/)
 
@@ -35,6 +33,8 @@ Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR.
 6) Pax - Paxos standard
 
 7) Xlm - Stellar
+
+**Programmed in Python | PySimpleGUI**
 ```
 
 # How it works:
