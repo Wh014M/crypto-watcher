@@ -1,4 +1,4 @@
-![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=adrijano&repo=crypto-watcher)](https://github.com/adrijano/github-readme-stats)
 
 ![CW](MainImage.png)
 
