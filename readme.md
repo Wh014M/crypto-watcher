@@ -4,6 +4,8 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/crypto-watcher/graphs/commit-activity)
 
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/adrijano/crypto-watcher/releases/)
+
 ![CW](MainImage.png)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
