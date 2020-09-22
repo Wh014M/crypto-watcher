@@ -1,7 +1,10 @@
+
+![CW](MainImage.png)
+
 Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
 List of cryptocurrency:
-
+```
 1) Btc - Bitcoin
 
 2) Eth - Ethereum
@@ -15,17 +18,20 @@ List of cryptocurrency:
 6) Pax - Paxos standard
 
 7) Xlm - Stellar
-
+```
 
 Programed in python with pysimplegui.
 
-How it works:
-
+# How it works:
+```
 Program sends requests on Bitstamp API and recive back prices of cryptocurrency's.
 
+```
 # How to use:
 
-'''
+```
+Python3+
+
 git clone https://github.com/adrijano/crypto-watcher.git
 
 cd crypto-watchet && pip3 install -r requirements.txt
@@ -35,15 +41,13 @@ python3 cw.py
 python3 cw-web.py
 
 Added standalone Web App with PySimpleGUIWeb.
-'''
+
 Windows:
 
 cd dist
 
 cw.exe
-
-![CW](MainImage.png)
-
+```
 ![CW](screen1.png)
 
 ![CW](screen2.png)
