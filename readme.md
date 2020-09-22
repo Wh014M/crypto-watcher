@@ -39,7 +39,7 @@ Program sends requests on Bitstamp API and recive back real-time prices of Crypt
 ```
 Python3+
 
-<git clone https://github.com/adrijano/crypto-watcher.git
+ `<git clone https://github.com/adrijano/crypto-watcher.git
 
 cd crypto-watcher && pip3 install -r requirements.txt
 
@@ -53,7 +53,7 @@ Windows:
 
 cd dist
 
-cw.exe>
+cw.exe> `
 ```
 
 ![CW](screen1.png)
