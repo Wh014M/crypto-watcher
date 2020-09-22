@@ -1,4 +1,6 @@
 
+![](https://img.shields.io/github/stars/adrijano/editor.md.svg) ![](https://img.shields.io/github/forks/adrijano/editor.md.svg) ![](https://img.shields.io/github/tag/adrijano/editor.md.svg) ![](https://img.shields.io/github/release/adrijano/editor.md.svg) ![](https://img.shields.io/github/issues/adrijano/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
 
 ![CW](MainImage.png)
 
