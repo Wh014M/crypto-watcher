@@ -1,8 +1,8 @@
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=adrijano&repo=crypto-watcher)](https://github.com/adrijano/github-readme-stats)
+
 
 ![CW](MainImage.png)
 
-![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&count_private=true)
+![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)
 
