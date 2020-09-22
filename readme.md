@@ -69,7 +69,9 @@ cw.exe
 If you would like to support me, donations are very welcome.
 
 ```
-You can use Paypal to donate using your own credit card. The payment is processed by PayPal but you don't need to have a PayPal account or sign-up for one if you are paying by credit card.
+You can use Paypal to donate using your own credit card. 
+The payment is processed by PayPal but you don't need to have a
+PayPal account or sign-up for one if you are paying by credit card.
 
 You can also use your own Paypal account to donate.
 ```
