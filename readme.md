@@ -20,11 +20,11 @@ List of cryptocurrency:
 7) Xlm - Stellar
 ```
 
-Programed in python with pysimplegui.
+Programed in Python with PySimpleGUI.
 
 # How it works:
 ```
-Program sends requests on Bitstamp API and recive back real time prices of cryptocurrency's.
+Program sends requests on Bitstamp API and recive back real-time prices of Cryptocurrencies.
 
 ```
 # How to use:
@@ -34,7 +34,7 @@ Python3+
 
 git clone https://github.com/adrijano/crypto-watcher.git
 
-cd crypto-watchet && pip3 install -r requirements.txt
+cd crypto-watcher && pip3 install -r requirements.txt
 
 python3 cw.py
 
@@ -48,6 +48,10 @@ cd dist
 
 cw.exe
 ```
+
+# Like this project? Please give it a star
+![Adrijano's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&count_private=true)
+
 ![CW](screen1.png)
 
 ![CW](screen2.png)
