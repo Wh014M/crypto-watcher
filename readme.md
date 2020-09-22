@@ -49,9 +49,9 @@ git clone https://github.com/adrijano/crypto-watcher.git
 
 cd crypto-watcher && pip install -r requirements.txt
 
-python3 cw.py
+python cw.py
 
-python3 cw-web.py
+python cw-web.py
 
 Added standalone Web App with PySimpleGUIWeb.
 ```
