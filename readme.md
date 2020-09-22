@@ -1,3 +1,5 @@
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ![CW](MainImage.png)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
@@ -39,7 +41,7 @@ Program sends requests on Bitstamp API and recive back real-time prices of Crypt
 ```
 Python3+
 
- `<git clone https://github.com/adrijano/crypto-watcher.git
+git clone https://github.com/adrijano/crypto-watcher.git
 
 cd crypto-watcher && pip3 install -r requirements.txt
 
@@ -53,7 +55,7 @@ Windows:
 
 cd dist
 
-cw.exe> `
+cw.exe
 ```
 
 ![CW](screen1.png)
