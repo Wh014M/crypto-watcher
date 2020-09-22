@@ -1,5 +1,5 @@
 
-![](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg) ![](https://img.shields.io/github/forks/adrijano/crypto-watcher.svg) ![](https://img.shields.io/github/tag/adrijano/crypto-watcher.svg) ![](https://img.shields.io/github/release/adrijano/crypto-warcher.svg)
+![](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg)
 
 ![CW](MainImage.png)
 
