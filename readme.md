@@ -4,7 +4,6 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/crypto-watcher/graphs/commit-activity)
 
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/adrijano/crypto-watcher/releases/)
 
 ![CW](MainImage.png)
 
@@ -18,7 +17,7 @@
 
 Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
 
-List of cryptocurrency:
+### List of cryptocurrencies
 ```
 1) Btc - Bitcoin
 
@@ -45,7 +44,7 @@ Program sends requests on Bitstamp API and recive back real-time prices of Crypt
 # How to use:
 
 ```
-Python3+
+### Python3+
 
 git clone https://github.com/adrijano/crypto-watcher.git
 
@@ -57,7 +56,7 @@ python3 cw-web.py
 
 Added standalone Web App with PySimpleGUIWeb.
 
-Windows:
+### Windows:
 
 cd dist
 
@@ -76,7 +75,7 @@ cw.exe
 
 ![CW](screenweb2.png)
 
-# Donations
+## Donations
 If you would like to support me, donations are very welcome.
 
 ```
