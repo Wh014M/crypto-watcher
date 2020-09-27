@@ -1,82 +1,51 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+# Crypter
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/crypto-watcher/)
+**Programmed in Python | PySimpleGUI**
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/crypto-watcher/graphs/commit-activity)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/Crypter-v1.1/)
 
-![CW](MainImage.png)
-
-
-**Youtube video | &#9947;	&#x26DB; &#x26DB;**
-
-[![Youtube](https://img.youtube.com/vi/gMSICR1aLKo/0.jpg)](https://www.youtube.com/watch?v=gMSICR1aLKo&feature=youtu.be)
-
-![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
-
-[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/PzX.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/Crypter-v1.1/graphs/commit-activity)
 
 # If you like it give it a star
 
-[![GitHub stars](https://img.shields.io/github/stars/adrijano/crypto-watcher.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/crypto-watcher)
+[![GitHub stars](https://img.shields.io/github/stars/adrijano/Crypter-v1.1.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/Crypter-v1.1)
 
-Crypto-watcher is simple program showing price of cryptocurrency in USD and EUR. It's simple to use and everyone can use it.
+![Crypter](crypter.gif)
 
-### List of cryptocurrencies
-```
-1) Btc - Bitcoin
+[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/PzX.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
 
-2) Eth - Ethereum
 
-3) Xrp - Ripple
-
-4) Ltc - Litecoin
-
-5) Bch - Bitcoin cash
-
-6) Pax - Paxos standard
-
-7) Xlm - Stellar
-```
-**Programmed in Python | PySimpleGUI**
 
 # How it works
 ```
-Program sends requests on Bitstamp API and recive back real-time prices of Cryptocurrencies.
+Crypter program use Fernet for encryption.
+Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key. 
+Fernet is an implementation of symmetric (also known as “secret key”) 
+authenticated cryptography.
+
+Generates a fresh fernet key. Keep this some place safe! 
+If you lose it you’ll no longer be able to decrypt files.
 
 ```
 # How to use
 
 ### Python3+
-```
-git clone https://github.com/adrijano/crypto-watcher.git
-
-cd crypto-watcher && pip install -r requirements.txt
-
-python cw.py
-
-python cw-web.py
 
 ```
+git clone https://github.com/adrijano/Crypter-v1.1.git
 
+cd Crypter-v1.1 && pip install -r requirements.txt
+
+python crypter.py
+```
 ### Windows
 ```
-cd dist
-
-cw.exe
+cd dist 
+crypter.exe
 ```
-
-![CW](screen1.png)
-
-![CW](screen2.png)
-
-![CW](screen3.png)
-
-![CW](screen4.png)
-
-![CW](screenweb.png)
-
-![CW](screenweb2.png)
+![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
 
 ## Donations
 If you would like to support me, donations are very welcome.
@@ -92,7 +61,12 @@ You can also donate Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin and USD Coin.
 ```
 [![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/PzX.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/adrijano/crypto-watcher/)
+
+# Disclaimer
+
+
+**The code within this repository comes with no guarantee, the use of this code is your responsibility. I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.**
+
 
 
 
