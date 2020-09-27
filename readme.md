@@ -6,6 +6,8 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/crypto-watcher/graphs/commit-activity)
 
 
+[![Youtube](https://www.youtube.com/watch?v=gMSICR1aLKo&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=gMSICR1aLKo&feature=youtu.be)
+
 ![CW](MainImage.png)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
