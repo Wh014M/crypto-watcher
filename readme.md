@@ -8,7 +8,7 @@
 ![CW](MainImage.png)
 
 
-**Youtube video|Click below**
+**Youtube video|&#9660;	&#x25BC;**
 
 [![Youtube](https://img.youtube.com/vi/gMSICR1aLKo/0.jpg)](https://www.youtube.com/watch?v=gMSICR1aLKo&feature=youtu.be)
 
