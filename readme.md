@@ -8,7 +8,8 @@
 
 ![CW](MainImage.png)
 
-''Youtube video &#9661;&#9661;&#9661;
+''Youtube video &#9661;&#9661;&#9661;**
+
 [![Alt text](https://img.youtube.com/vi/gMSICR1aLKo/0.jpg)](https://www.youtube.com/watch?v=gMSICR1aLKo)
 
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
