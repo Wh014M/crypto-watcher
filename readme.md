@@ -6,7 +6,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/crypto-watcher/graphs/commit-activity)
 
 
-![CW](MainImage.png)
+![CW](MainImage.gif)
 
 **Youtube video &#9661;&#9661;&#9661;**
 
